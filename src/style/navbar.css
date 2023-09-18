@@ -7,7 +7,6 @@
 }
 .name{
     margin-left: 20px;
-    margin-top: 10px;
 }
 .nav-link{
     font-weight: bold;
@@ -32,6 +31,11 @@
     color: #3085C3 !important;
     border-bottom: #3085C3 2px solid;
     transition: color 0.3s;
+}
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 @media (max-width: 768px) {
     #bar{
