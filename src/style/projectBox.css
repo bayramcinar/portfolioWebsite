@@ -1,0 +1,41 @@
+.projectBox{
+    width: 250px;
+    height: 250px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2) !important; 
+    margin-right: 25px;
+    margin-bottom: 250px;
+    background: linear-gradient(to bottom, #57059e, #4a00e0);
+}
+.projectImg {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+  }
+  .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .view{
+    margin-right: 8px;
+  }
+  .scrollable-text::-webkit-scrollbar {
+    width: 6px; /* Çubuk genişliği */
+  }
+  
+  .scrollable-text::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Arka plan rengi */
+  }
+  
+  .scrollable-text::-webkit-scrollbar-thumb {
+    background-color: #888; /* Kaydırma çubuğu rengi */
+  }
+  .btn{
+    background-color: #03001C !important;
+    border: #03001C 1px solid;
+  }
+  .btn:hover{
+    background-color: #57059e !important;
+    border: #57059e 1px solid;
+    transition: all 0.5s;
+  }

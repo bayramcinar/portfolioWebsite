@@ -1,0 +1,7 @@
+.liste{
+    display: flex;
+}
+.skillsArea{
+    display: flex;
+    justify-content: flex-end; 
+}
