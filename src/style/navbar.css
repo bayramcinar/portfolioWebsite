@@ -40,7 +40,7 @@
 }
 @media (max-width: 768px) {
     #bar{
-        display: flex !important;
+        display: flex;
         justify-content: start;
     }
 }
