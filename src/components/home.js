@@ -30,6 +30,7 @@ function Home() {
               ]}
               wrapper="span"
               cursor={true}
+              className="silinen"
               repeat={Infinity}
               style={{ fontSize: '25px', display: 'inline-block',color:"#F86F03",fontWeight:"700" }}
             />
