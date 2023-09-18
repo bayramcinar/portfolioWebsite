@@ -10,19 +10,26 @@ import Projects from './components/projects';
 import Skills from './components/skills';
 
 function App() {
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth" 
+    });
+  }
   return (
     <div className="App">
         <Navbar/>
         <div className="scroll-container">
-        <Home/>
-        <About/>
-        <Skills/>
-        <Education/>
-        <Projects/>
-        <Experience/>
-        <Contact/>
-        <Footer/>
+          <Home/>
+          <About/>
+          <Skills/>
+          <Education/>
+          <Projects/>
+          <Experience/>
+          <Contact/>
+          <Footer/>
         </div>
+        <div id="go-top-button" onClick={scrollToTop}><i class="fa-solid fa-circle-up"></i></div>
     </div>
   );
 }
