@@ -10,7 +10,7 @@ function Home() {
       <div className='homeText col-lg-6 col-sm-12'>
         <div className='row'>
           <div className='col-lg-5 col-sm-12'>
-            <img src={me} className='mePhoto'></img>
+            <img src={me} className='mePhoto animate__animated animate__zoomIn'></img>
           </div>
           <div className='col-lg-6 col-sm-12'>
             <h1 className='helloText'>Hello,</h1>
