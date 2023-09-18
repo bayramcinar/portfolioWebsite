@@ -5,7 +5,7 @@ import AOS from 'aos'
 
 function SkillIcon({icon,name}) {
   useEffect(()=>{
-    AOS.init({duration: 1000})
+    AOS.init({duration: 2000})
   },[])
 
   return (
