@@ -4,6 +4,7 @@ import bg4 from "../img/bg4.gif"
 import SkillIcon from './skillIcon'
 import "../style/skills.css"
 
+
 function Skills() {
   return (
     <div id='skills'>

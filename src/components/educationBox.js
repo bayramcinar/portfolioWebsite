@@ -1,9 +1,15 @@
-import React from 'react'
+import React,{useEffect}from 'react'
 import "../style/educationBox.css"
+import "aos/dist/aos.css"
+import AOS from 'aos'
+
 
 function EducationBox({img,name,date}) {
+  useEffect(()=>{
+    AOS.init({duration: 1000})
+  },[])
   return (
-    <div>
+    <div data-aos="zoom-in">
       <div className="card mb-3" style={{maxWidth: "980px"}}>
         <div className="row g-0">
             <div className="col-md-4">

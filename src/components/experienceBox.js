@@ -1,8 +1,14 @@
-import React from 'react'
+import React,{useEffect}from 'react'
+import "aos/dist/aos.css"
+import AOS from 'aos'
 
 function ExperienceBox({img,name,date,explain}) {
+  useEffect(()=>{
+    AOS.init({duration: 1000})
+  },[])
+
   return (
-    <div>
+    <div data-aos="zoom-in" >
       <div class="card mb-3" style={{maxWidth: "840px"}}>
         <div class="row g-0">
             <div class="col-md-4">

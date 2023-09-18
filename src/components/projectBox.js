@@ -1,10 +1,16 @@
-import React from 'react'
+import React,{useEffect}from 'react'
 import "../style/projectBox.css"
 import { Link } from 'react-router-dom'
+import "aos/dist/aos.css"
+import AOS from 'aos'
 
 function ProjectBox({img,name,explain,link,github}) {
+  useEffect(()=>{
+    AOS.init({duration: 1000})
+  },[])
+
   return (
-    <div>
+    <div data-aos="zoom-in">
        <div className='projectBox' >
             <img src={img} className='projectImg'></img>
             <h5 style={{display:"flex",alignItems:"center",justifyContent:"center",marginTop:"10px"}}>{name}</h5>

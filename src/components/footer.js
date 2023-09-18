@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link';
 import "../style/footer.css"
 
 function Footer() {
@@ -11,11 +11,11 @@ function Footer() {
         </div>
         <div className='col-4' style={{display:"inline-grid"}}>
             <div className='footlinks' style={{display:"inline-grid"}}>
-                <Link className='footLink' to="#home"><i class="fas fa-chevron-circle-right"></i> Home</Link>
-                <Link className='footLink' to="#about"><i class="fas fa-chevron-circle-right"></i> About Me</Link>
-                <Link className='footLink' to="#skills"><i class="fas fa-chevron-circle-right"></i> Skills</Link>
-                <Link className='footLink' to="#education"><i class="fas fa-chevron-circle-right"></i> Education</Link>
-                <Link className='footLink' to="#experience"><i class="fas fa-chevron-circle-right"></i> Experience</Link>
+                <Link smooth className='footLink' to="#home"><i class="fas fa-chevron-circle-right"></i> Home</Link>
+                <Link smooth className='footLink' to="#about"><i class="fas fa-chevron-circle-right"></i> About Me</Link>
+                <Link smooth className='footLink' to="#skills"><i class="fas fa-chevron-circle-right"></i> Skills</Link>
+                <Link smooth className='footLink' to="#education"><i class="fas fa-chevron-circle-right"></i> Education</Link>
+                <Link smooth className='footLink' to="#experience"><i class="fas fa-chevron-circle-right"></i> Experience</Link>
             </div>
         </div>
         <div className='col-5 footContact' style={{marginTop:"1%"}}>
