@@ -1,4 +1,4 @@
-#navbarNav{
+#bar{
     display: flex !important;
     justify-content: end;
 }
@@ -34,8 +34,8 @@
     transition: color 0.3s;
 }
 @media (max-width: 768px) {
-    #navbarNav{
+    #bar{
         display: flex !important;
-        justify-content: end;
+        justify-content: start;
     }
 }
