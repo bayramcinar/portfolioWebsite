@@ -29,16 +29,16 @@ useEffect(()=>{
             I know HTML, CSS, JavaScript, ReactJs, NodeJS, Pyhton and
             Typescript. I am currently learing Angular and .Net Core.
             </p>
-            <h6>
+            <h6 data-aos="zoom-in">
             🥷I'm currently working on Web Developing
             </h6>
-            <h6>
+            <h6 data-aos="zoom-in">
             💥I'm learning Angular and .NET Core
             </h6>
-            <h6>
+            <h6 data-aos="zoom-in">
             ⚡Ask me about Web Developing
             </h6>
-            <h6>
+            <h6 data-aos="zoom-in">
             📩E-mail: bayram200212@gmail.com
             </h6>
         </div>
