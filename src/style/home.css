@@ -1,61 +1,67 @@
-.generalDiv{
+.generalDiv {
     width: 100%;
 }
+
 .generalDiv {
     display: flex;
-    justify-content: flex-end; 
-  }
-.mePhoto{
+    justify-content: flex-end;
+}
+
+.mePhoto {
     width: 230px;
     border-radius: 50%;
     margin-left: 30px;
 }
-.homeText{
+
+.homeText {
     margin-top: 5%;
 }
-.helloText{
+
+.helloText {
     color: #1450A3;
     font-weight: 700;
     font-size: 70px;
 }
-.meText{
+
+.meText {
     color: #213555;
     font-weight: 700;
     font-size: 40px;
 }
-.jobText
-{
+
+.jobText {
     color: #F86F03;
     font-weight: 700;
     font-size: 25px;
 }
-.gif{
+
+.gif {
     height: 500px;
 }
+
 @media (max-width: 768px) {
-    .helloText{
+    .helloText {
         margin-left: 50px;
         font-size: 40px;
     }
-    .meText{
+    .meText {
         margin-left: 50px;
         font-size: 20px;
     }
-    .jobText
-    {
+    .jobText {
         margin-left: 50px;
         font-size: 15px;
     }
-    .homeText{
+    .homeText {
         margin-left: 50%;
     }
-    .mePhoto{
+    .mePhoto {
         margin-left: 80px;
     }
-    .typingText{
+    .typingText {
         margin-left: 50px;
     }
-    .silinen{
-    margin-left: 50px;
+    .silinen {
+        margin-left: 50px;
+    }
 }
-
