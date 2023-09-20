@@ -18,14 +18,6 @@ function App() {
   }
   return (
     <div className="App">
-        <Navbar/>
-<<<<<<< HEAD
-=======
-        <div className="scroll-container">
-<<<<<<< HEAD
->>>>>>> 7cf78d07c4122a8b04cb433ec9790cafebf5ad02
-=======
->>>>>>> 7cf78d07c4122a8b04cb433ec9790cafebf5ad02
           <Home/>
           <About/>
           <Skills/>
@@ -34,14 +26,6 @@ function App() {
           <Experience/>
           <Contact/>
           <Footer/>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-        </div>
->>>>>>> 7cf78d07c4122a8b04cb433ec9790cafebf5ad02
-=======
-        </div>
->>>>>>> 7cf78d07c4122a8b04cb433ec9790cafebf5ad02
         <div id="go-top-button" onClick={scrollToTop}><i class="fa-solid fa-circle-up"></i></div>
     </div>
   );
