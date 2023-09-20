@@ -86,7 +86,7 @@ function Footer() {
         </div>
         <div className='col-5 footContact' style={{marginTop:"1%"}}>
             <h2>Contact</h2>
-            <h5><i class="fas fa-envelope" style={{color:"#F86F03"}}></i> bayram200212@gmail.com</h5>
+            <h5 className="footerMail"><i class="fas fa-envelope" style={{color:"#F86F03"}}></i> bayram200212@gmail.com</h5>
             <h5><i class="fas fa-map-marked-alt" style={{color:"#F86F03"}}></i> Turkey / Mersin, Adana</h5>
         </div>
     </div>
