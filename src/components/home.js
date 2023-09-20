@@ -16,6 +16,7 @@ function Home() {
             <h1 className='helloText'>Hello,</h1>
             <h2 className='meText'>I am Bayram Çınar</h2>
             <TypeAnimation
+              className='typingText'
               sequence={[
                 'Junior',
                 2000, 
@@ -30,6 +31,7 @@ function Home() {
               ]}
               wrapper="span"
               cursor={true}
+              className="silinen"
               repeat={Infinity}
               style={{ fontSize: '25px', display: 'inline-block',color:"#F86F03",fontWeight:"700" }}
             />

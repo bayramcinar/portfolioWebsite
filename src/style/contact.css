@@ -1,0 +1,17 @@
+.socialRow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col-6{
+    width: 27%;
+    margin-top: 8px;
+}
+@media (max-width: 768px) {
+    .col-6{
+        width: 50%;
+    }
+    #contact{
+        padding: 30px;
+    }
+}

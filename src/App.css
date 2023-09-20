@@ -1,6 +1,9 @@
 *{
     font-family: 'Ubuntu', sans-serif;
 }
+.App{
+  width: 100%;
+}
 .scroll-container::-webkit-scrollbar {
     width: 6px;
   }
@@ -17,4 +20,48 @@
     scrollbar-width: thin;
     scrollbar-color: #888 #f1f1f1;
   }
+<<<<<<< HEAD
+  #go-top-button {
+=======
+    #go-top-button {
+>>>>>>> 7cf78d07c4122a8b04cb433ec9790cafebf5ad02
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
   
+  #go-top-button:hover {
+    background-color: #0056b3;
+  }
+.fa-circle-up{
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+<<<<<<< HEAD
+=======
+@media (max-width: 768px) {
+    #go-top-button {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 120px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+}
+>>>>>>> 7cf78d07c4122a8b04cb433ec9790cafebf5ad02

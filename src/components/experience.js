@@ -3,6 +3,7 @@ import info from "../img/experience.png"
 import kardelen from "../img/kardelem.png"
 import ExperienceBox from './experienceBox'
 import free from "../img/free.jpeg"
+import "../style/experience.css"
 
 function Experience() {
   return (

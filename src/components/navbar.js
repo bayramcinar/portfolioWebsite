@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import logo from "../img/logo.jpg";
 import "../style/navbar.css";
-import { HashLink as Link } from 'react-router-hash-link';
+import { Link } from 'react-scroll';
 
 function Navbar() {
-    const [activeItem, setActiveItem] = useState(""); // State kullanarak aktif öğeyi sakla
+    const [activeItem, setActiveItem] = useState(""); 
 
     const handleItemClick = (item) => {
-        setActiveItem(item); // Tıklanan öğeyi state'e ayarla
+        setActiveItem(item);
     };
 
     return (
@@ -23,25 +23,96 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="bar">
                     <ul className="navbar-nav">
                         <li className="nav-item" >
-                            <Link smooth className={`nav-link ${activeItem === 'home' ? 'active' : ''}`} onClick={() => handleItemClick('home')} to="#home">Home</Link>
+                        <Link
+                            className='nav-link'
+                            activeClass="active"
+                            to="home"
+                            spy={true}
+                            smooth={true}
+                            duration={100}
+                            onClick={() => handleItemClick('home')}
+                        >
+                            Home
+                        </Link>
                         </li>
                         <li className="nav-item">
-                            <Link smooth className={`nav-link ${activeItem === 'about' ? 'active' : ''}`} onClick={() => handleItemClick('about')} to="#about">About Me</Link>
+                        <Link
+                            className='nav-link'
+                            activeClass="active"
+                            to="about"
+                            spy={true}
+                            smooth={true}
+                            duration={100}
+                            onClick={() => handleItemClick('about')}
+                        >
+                            About Me
+                        </Link>
+
                         </li>
                         <li className="nav-item" >
-                            <Link smooth className={`nav-link ${activeItem === 'skills' ? 'active' : ''}`} onClick={() => handleItemClick('skills')} to="#skills">Skills</Link>
+                            <Link
+                                className='nav-link'
+                                activeClass="active"
+                                to="skills"
+                                spy={true}
+                                smooth={true}
+                                duration={100}
+                                onClick={() => handleItemClick('skills')}
+                            >
+                                Skills
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <Link smooth className={`nav-link ${activeItem === 'education' ? 'active' : ''}`} onClick={() => handleItemClick('education')} to="#education">Education</Link>
+                            <Link
+                                className='nav-link'
+                                activeClass="active"
+                                to="education"
+                                spy={true}
+                                smooth={true}
+                                duration={100}
+                                onClick={() => handleItemClick('education')}
+                            >
+                                Education
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <Link smooth className={`nav-link ${activeItem === 'projects' ? 'active' : ''}`} onClick={() => handleItemClick('projects')} to="#projects">Projects</Link>
+                            <Link
+                                className='nav-link'
+                                activeClass="active"
+                                to="projects"
+                                spy={true}
+                                smooth={true}
+                                duration={100}
+                                onClick={() => handleItemClick('projects')}
+                            >
+                                Projects
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <Link smooth className={`nav-link ${activeItem === 'experience' ? 'active' : ''}`} onClick={() => handleItemClick('experience')} to="#experience">Experience</Link>
+                            <Link
+                                className='nav-link'
+                                activeClass="active"
+                                to="experience"
+                                spy={true}
+                                smooth={true}
+                                duration={100}
+                                onClick={() => handleItemClick('experience')}
+                            >
+                                Experience
+                            </Link>
                         </li>
                         <li className="nav-item" >
-                            <Link smooth className={`nav-link ${activeItem === 'contact' ? 'active' : ''}`} onClick={() => handleItemClick('contact')} to="#contact">Contact</Link>
+                            <Link
+                                className='nav-link'
+                                activeClass="active"
+                                to="contact"
+                                spy={true}
+                                smooth={true}
+                                duration={100}
+                                onClick={() => handleItemClick('contact')}
+                            >
+                                Contact
+                            </Link>
                         </li>
                     </ul>
                 </div>

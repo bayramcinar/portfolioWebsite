@@ -6,6 +6,7 @@ import ig from '../img/instagram.png';
 import cv from '../img/cv.png';
 import pdf from '../img/cv.pdf';
 import { TextField } from '@mui/material';
+import "../style/contact.css"
 
 function Contact() {
   return (
@@ -17,13 +18,25 @@ function Contact() {
       </div>
       <div className='row'>
         <div className='social col-lg-6 col-sm-12' style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-          <ContactBox logo={'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'} link={'https://github.com/bayramcinar'} />
-          <ContactBox logo={'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg'} link={'https://www.linkedin.com/in/bayram-%C3%A7%C4%B1nar-275191251/'} />
-          <ContactBox logo={ig} link={'https://www.instagram.com/bayrammcinar/'} />
-          <ContactBox logo={cv} link={pdf} />
-          <ContactBox logo={'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg'} link={'https://twitter.com/Bayramcinar33'} />
+          <div className='row socialRow'>
+            <div className='col-6'>
+              <ContactBox logo={'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'} link={'https://github.com/bayramcinar'} name={"Github"} />
+            </div>
+            <div className='col-6'>
+              <ContactBox logo={'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg'} link={'https://www.linkedin.com/in/bayram-%C3%A7%C4%B1nar-275191251/'} name={"LinkedIn"} />
+            </div>
+            <div className='col-6'>
+              <ContactBox logo={ig} link={'https://www.instagram.com/bayrammcinar/'} name={"Instagram"}/>
+            </div>
+            <div className='col-6'>
+              <ContactBox logo={cv} link={pdf} name={"Download CV"} />
+            </div>
+            <div className='col-6'>
+              <ContactBox logo={'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg'} link={'https://twitter.com/Bayramcinar33'} name={"Twitter"}/>
+            </div>
+          </div>
         </div>
-        <div className='social col-lg-6 col-sm-12' style={{ display: 'flex', alignItems: 'start', justifyContent: 'start' }}>
+        <div className='social mail col-lg-6 col-sm-12' style={{ display: 'flex', alignItems: 'start', justifyContent: 'start' }}>
           <form action="https://formspree.io/f/mlekybpq" method="POST">
             <label className="backLabel" htmlFor="fname">Name :</label>
             <input className="form-control" type="text" id="fname" name="fname" style={{ width: '400px' }} />
