@@ -22,6 +22,9 @@ function App() {
 <<<<<<< HEAD
 =======
         <div className="scroll-container">
+<<<<<<< HEAD
+>>>>>>> 7cf78d07c4122a8b04cb433ec9790cafebf5ad02
+=======
 >>>>>>> 7cf78d07c4122a8b04cb433ec9790cafebf5ad02
           <Home/>
           <About/>
@@ -32,6 +35,10 @@ function App() {
           <Contact/>
           <Footer/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        </div>
+>>>>>>> 7cf78d07c4122a8b04cb433ec9790cafebf5ad02
 =======
         </div>
 >>>>>>> 7cf78d07c4122a8b04cb433ec9790cafebf5ad02

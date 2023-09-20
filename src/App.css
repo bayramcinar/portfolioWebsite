@@ -21,7 +21,11 @@
     scrollbar-color: #888 #f1f1f1;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   #go-top-button {
+=======
+    #go-top-button {
+>>>>>>> 7cf78d07c4122a8b04cb433ec9790cafebf5ad02
 =======
     #go-top-button {
 >>>>>>> 7cf78d07c4122a8b04cb433ec9790cafebf5ad02
@@ -48,7 +52,10 @@
   justify-content: center;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 7cf78d07c4122a8b04cb433ec9790cafebf5ad02
 @media (max-width: 768px) {
     #go-top-button {
     width: 50px;
@@ -64,4 +71,7 @@
     border-radius: 50%;
   }
 }
+<<<<<<< HEAD
+>>>>>>> 7cf78d07c4122a8b04cb433ec9790cafebf5ad02
+=======
 >>>>>>> 7cf78d07c4122a8b04cb433ec9790cafebf5ad02
