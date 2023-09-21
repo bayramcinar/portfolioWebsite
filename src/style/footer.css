@@ -19,7 +19,8 @@
     justify-content: center;
 }
 @media (max-width: 768px) {
-    .footerMail{
+    .footerMail,
+    .footerAdress{
      font-size:12px;
 }
 }
