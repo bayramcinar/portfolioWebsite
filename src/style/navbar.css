@@ -40,6 +40,13 @@
     align-items: center;
     justify-content: center;
 }
+.navbar-toggler:focus {
+    outline: none;
+    border: none !important;
+}
+.navbar-toggler {
+    border: none !important;
+}
 @media (max-width: 768px) {
     #bar{
         justify-content: start;
