@@ -47,6 +47,9 @@
 .navbar-toggler {
     border: none !important;
 }
+button:focus:not(:focus-visible) {
+    outline: none;
+}
 @media (max-width: 768px) {
     #bar{
         justify-content: start;
