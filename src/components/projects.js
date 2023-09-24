@@ -13,6 +13,7 @@ import weather from "../img/weather.png";
 import world from "../img/world.png";
 import menu2 from "../img/menu2.jpeg";
 import todo from "../img/todo.png";
+import bilgis from "../img/bilgis.png";
 
 import info from "../img/project.png";
 
@@ -37,6 +38,7 @@ function Projects() {
         <ProjectBox img={movie} name={"Recommend Movie WebSite"} explain={"In this project, I made a website which can recommend a random movie. You can see movie name, movie description, movie time, movie release time and IMDb point. Also you can watch the trailer of the movie. I used HTML, CSS, JS and Python. I got the data from IMBb website. I made a json by using Pyhton Selenium Modul."} link={"https://bayramcinar.github.io/recommendMovieWebSite/"} github={"https://github.com/bayramcinar/recommendMovieWebSite"} />
         <ProjectBox img={ortalama} github={"https://github.com/bayramcinar/ortalamaHesaplama"} link={"https://bayramcinar.github.io/ortalamaHesaplama/"} name={"Ortalama Hesaplama"} explain={"In this project, I made a university point calculator. I used HTML, CSS and JavaScript. You should write lecture name, its credit and letter point. Also, you can add your previous point and total credits."} />
         <ProjectBox img={todo} name={"ToDo App"} explain={"In this project, I made a TO-DO App. While making this I used HTML, CSS, and JavaScript. I learned how can I use Local Storage in JavaScript. There is an input area in the app. You can add your content from there. You can edit your contents. Also, you can delete them or mark them as you have done."} link={"https://bayramcinar.github.io/ToDoApp/"} github={"https://github.com/bayramcinar/ToDoApp"}/>
+        <ProjectBox img={bilgis} name={"Bilgiş Harita"} explain={"In this project, I made a company website for Bilgiş Harita Mühendislik."} link={"https://bilgisharita.onrender.com/"} github={"https://bilgisharita.onrender.com/"}/>
       </div>
     </div>
   )
