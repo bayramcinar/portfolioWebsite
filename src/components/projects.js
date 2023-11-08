@@ -15,6 +15,7 @@ import menu2 from "../img/menu2.jpeg";
 import todo from "../img/todo.png";
 import bilgis from "../img/bilgis.png";
 import angularMovie from "../img/angularMovieCard.png";
+import travel from "../img/travel.png";
 
 import info from "../img/project.png";
 
@@ -41,6 +42,7 @@ function Projects() {
         <ProjectBox img={todo} name={"ToDo App"} explain={"In this project, I made a TO-DO App. While making this I used HTML, CSS, and JavaScript. I learned how can I use Local Storage in JavaScript. There is an input area in the app. You can add your content from there. You can edit your contents. Also, you can delete them or mark them as you have done."} link={"https://bayramcinar.github.io/ToDoApp/"} github={"https://github.com/bayramcinar/ToDoApp"}/>
         <ProjectBox img={bilgis} name={"Bilgiş Harita"} explain={"In this project, I made a company website for Bilgiş Harita Mühendislik."} link={"https://bilgisharita.com.tr/"} github={"https://bilgisharita.com.tr/"}/>
         <ProjectBox img={angularMovie} name={"Movie Card"} explain={"In this project, I made a my first angular project. I made a movie card project."} link={"https://angular-movie-card.vercel.app/"} github={"https://github.com/bayramcinar/angularMovieCard"}/>
+        <ProjectBox img={travel} name={"Travel Guide"} explain={" In this project I made a traveller guide app by using react. There is a turkey map with all cities and all regions separately. You can can reach the places that you should visit when you went to that city. Their photos, names and also Google maps links."} link={"https://travelguide-16ye.onrender.com/"} github={"https://github.com/bayramcinar/travelGuide"}/>
       </div>
     </div>
   )
